@@ -1,0 +1,283 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0 1px 0 1px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: orange;
+  height: 4vh;
+}
+
+img {
+  height: 25px;
+  width: 20px;
+}
+
+nav button {
+  background-color: rgba(128, 128, 128, 0.526);
+  border-color: transparent;
+  border-radius: 5%;
+  padding: 3px;
+}
+
+.board-search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.buttoncenter span {
+  font-size: 1em;
+}
+
+.searchbar {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.searchbar-input {
+  background-color: rgba(128, 128, 128, 0.526);
+  border: none;
+  margin-right: 0;
+  outline: none;
+}
+
+.magnifying-icon {
+  margin-left: 0;
+}
+
+.buttoncenter {
+  display: flex;
+  align-items: center;
+}
+
+.middle-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.middle-logo h1 {
+  font-style: italic;
+  color: rgb(165, 153, 153);
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+}
+
+#top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: orange;
+  height: 5vh;
+}
+
+.top-left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bigicon {
+  height: 30px;
+  width: 25px;
+  margin-left: 3px;
+}
+
+.top-left img {
+  margin-right: 1em;
+}
+
+.top-left h1 {
+  margin-right: 1em;
+}
+.top-left span {
+  font-size: 1em;
+  margin-right: 1em;
+}
+
+.top-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.top-right img {
+  margin-left: 1em;
+}
+
+.top-right span {
+  margin-left: 1em;
+  text-decoration: underline;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  height: 90vh;
+}
+
+.first-card {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(128, 128, 128, 0.883);
+  width: 24vw;
+  border-radius: 5px;
+}
+
+.card-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 10vh;
+}
+
+.card-title h1 {
+  font-size: 1.5em;
+  font-weight: 300;
+  font-style: oblique;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  overflow: scroll;
+}
+
+.inner-card {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: rgb(238, 234, 234);
+  margin: 4px 3px 5px 3px;
+  height: 100vh;
+}
+
+.inner-card span {
+  font-size: 1.2em;
+}
+
+.span-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 45px);
+  grid-template-rows: repeat(2, 10px);
+  gap: 3px;
+  margin-top: 5px;
+  width: 300px;
+}
+
+.employee {
+  display: flex;
+  justify-content: space-between;
+}
+
+.color1 {
+  background-color: green;
+}
+
+.color2 {
+  background-color: yellow;
+}
+
+.color3 {
+  background-color: orange;
+}
+.color4 {
+  background-color: red;
+}
+
+.color5 {
+  background-color: purple;
+}
+
+.color6 {
+  background-color: blue;
+}
+
+.color7 {
+  background-color: turquoise;
+}
+.color8 {
+  background-color: greenyellow;
+}
+.color9 {
+  background-color: pink;
+}
+
+.color10 {
+  background-color: black;
+}
+input {
+  width: 100%;
+  border-radius: 10%;
+  border: none;
+  outline: none;
+}
+
+.color2 input {
+  width: 25%;
+}
+.burger {
+  height: 30px;
+  width: 20px;
+  margin-left: 6px;
+}
+
+.selfie {
+  height: 40px;
+  width: 40px;
+  margin-right: 30px;
+  border-radius: 20%;
+}
+
+h2 {
+  font-size: 1em;
+  font-weight: 500;
+  font-style: oblique;
+}
+
+.second-card {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(128, 128, 128, 0.883);
+  width: 24vw;
+  height: 40vh;
+  border-radius: 5px;
+}
+.third-card {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(128, 128, 128, 0.883);
+  width: 24vw;
+  height: 80vh;
+  border-radius: 5px;
+}
+.fourth-card {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(128, 128, 128, 0.883);
+  width: 24vw;
+  height: 30vh;
+  border-radius: 5px;
+}
+
+.fifth-card {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(128, 128, 128, 0.883);
+  width: 24vw;
+  height: 50vh;
+  border-radius: 5px;
+}
+
+.inner-bottom {
+  display: flex;
+  align-items: center;
+}
