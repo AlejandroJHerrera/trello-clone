@@ -1,7 +1,13 @@
 * {
   box-sizing: border-box;
   padding: 0;
-  margin: 0 1px 0 1px;
+  margin: 0;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 nav {
@@ -42,12 +48,7 @@ nav button {
 .searchbar-input {
   background-color: rgba(128, 128, 128, 0.526);
   border: none;
-  margin-right: 0;
   outline: none;
-}
-
-.magnifying-icon {
-  margin-left: 0;
 }
 
 .buttoncenter {
@@ -76,7 +77,10 @@ nav button {
   justify-content: space-between;
   align-items: center;
   background-color: orange;
-  height: 5vh;
+  height: 6vh;
+  position: fixed;
+  top: 4vh;
+  width: 100%;
 }
 
 .top-left {
@@ -88,7 +92,6 @@ nav button {
 .bigicon {
   height: 30px;
   width: 25px;
-  margin-left: 3px;
 }
 
 .top-left img {
@@ -122,21 +125,31 @@ nav button {
   display: flex;
   justify-content: space-between;
   height: 90vh;
+  overflow-x: scroll;
+  width: fit-content;
+  position: relative;
+  top: 10vh;
+}
+
+.card-wrapper {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(128, 128, 128, 0.883);
 }
 
 .first-card {
   display: flex;
   flex-direction: column;
-  background-color: rgba(128, 128, 128, 0.883);
-  width: 24vw;
   border-radius: 5px;
+  height: 100%;
+  width: 300px;
+  margin-right: 1em;
 }
 
 .card-title {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 10vh;
 }
 
 .card-title h1 {
@@ -148,7 +161,7 @@ nav button {
 .card-container {
   display: flex;
   flex-direction: column;
-  overflow: scroll;
+  overflow-y: scroll;
 }
 
 .inner-card {
@@ -157,7 +170,7 @@ nav button {
   flex-direction: column;
   background-color: rgb(238, 234, 234);
   margin: 4px 3px 5px 3px;
-  height: 100vh;
+  height: 100%;
 }
 
 .inner-card span {
@@ -233,48 +246,48 @@ input {
 .selfie {
   height: 40px;
   width: 40px;
-  margin-right: 10px;
-  border-radius: 20%;
+  border-radius: 25%;
 }
 
 h2 {
   font-size: 1em;
   font-weight: 500;
   font-style: oblique;
+  margin-top: 1em;
 }
 
 .second-card {
   display: flex;
   flex-direction: column;
-  background-color: rgba(128, 128, 128, 0.883);
-  width: 24vw;
-  height: 40vh;
   border-radius: 5px;
+  height: 100%;
+  width: 400px;
+  margin-right: 1em;
 }
 .third-card {
   display: flex;
   flex-direction: column;
-  background-color: rgba(128, 128, 128, 0.883);
-  width: 24vw;
-  height: 80vh;
+  height: 100%;
   border-radius: 5px;
+  width: 300px;
+  margin-right: 1em;
 }
 .fourth-card {
   display: flex;
   flex-direction: column;
-  background-color: rgba(128, 128, 128, 0.883);
-  width: 24vw;
-  height: 30vh;
+  height: 100%;
   border-radius: 5px;
+  width: 300px;
+  margin-right: 1em;
 }
 
 .fifth-card {
   display: flex;
   flex-direction: column;
-  background-color: rgba(128, 128, 128, 0.883);
-  width: 24vw;
-  height: 50vh;
+  height: 100%;
   border-radius: 5px;
+  width: 300px;
+  margin-right: 1em;
 }
 
 .inner-bottom {
@@ -291,4 +304,10 @@ h2 {
   display: flex;
   justify-content: start;
   align-items: center;
+}
+
+.pinkbkgr {
+  display: flex;
+  align-items: center;
+  background-color: pink;
 }
